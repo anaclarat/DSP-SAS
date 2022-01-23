@@ -1,0 +1,2805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">REGIONAL/PROVINCIAL EXPENSE BY PRODUCT CATEGORY</td>
+</tr>
+</table><br>
+<div class="c proctitle">The MEANS Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Summary statistics">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="15" scope="colgroup">Analysis Variable : Expense </th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Region</th>
+<th class="l b header" scope="col">Geography</th>
+<th class="l b header" scope="col">Product_Category</th>
+<th class="r b header" scope="col">N Obs</th>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">N Miss</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Median</th>
+<th class="r b header" scope="col">Mode</th>
+<th class="r b header" scope="col">Minimum</th>
+<th class="r b header" scope="col">Maximum</th>
+<th class="r b header" scope="col">Range</th>
+<th class="r b header" scope="col">Quartile Range</th>
+<th class="r b header" scope="col">Lower 95%<br/>CL for Mean</th>
+<th class="r b header" scope="col">Upper 95%<br/>CL for Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l t data">Atlantic provinces</th>
+<th class="l t data">Atlantic provinces</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">576.37</td>
+<td class="r data">439.40</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4211.74</td>
+<td class="r data">4211.74</td>
+<td class="r data">628.74</td>
+<td class="r data">575.29</td>
+<td class="r data">577.44</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">359.04</td>
+<td class="r data">223.60</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2990.62</td>
+<td class="r data">2990.62</td>
+<td class="r data">480.28</td>
+<td class="r data">358.25</td>
+<td class="r data">359.83</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">834.65</td>
+<td class="r data">676.26</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4011.47</td>
+<td class="r data">4011.47</td>
+<td class="r data">901.41</td>
+<td class="r data">833.30</td>
+<td class="r data">836.01</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">186.92</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4109.82</td>
+<td class="r data">4109.82</td>
+<td class="r data">188.24</td>
+<td class="r data">186.12</td>
+<td class="r data">187.71</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">623.50</td>
+<td class="r data">417.56</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5405.56</td>
+<td class="r data">5405.56</td>
+<td class="r data">707.08</td>
+<td class="r data">622.23</td>
+<td class="r data">624.77</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">1084.85</td>
+<td class="r data">766.48</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">9287.54</td>
+<td class="r data">9287.54</td>
+<td class="r data">1283.36</td>
+<td class="r data">1082.57</td>
+<td class="r data">1087.13</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">1504.56</td>
+<td class="r data">1247.74</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">8296.08</td>
+<td class="r data">8296.08</td>
+<td class="r data">1487.46</td>
+<td class="r data">1502.24</td>
+<td class="r data">1506.88</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">1006001</th>
+<td class="r data">1006001</td>
+<td class="r data">0</td>
+<td class="r data">595.16</td>
+<td class="r data">443.82</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4569.18</td>
+<td class="r data">4569.18</td>
+<td class="r data">675.74</td>
+<td class="r data">594.06</td>
+<td class="r data">596.27</td>
+</tr>
+<tr>
+<th class="l t data">Central</th>
+<th class="l t data">Ontario</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">559.05</td>
+<td class="r data">428.74</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4404.03</td>
+<td class="r data">4404.03</td>
+<td class="r data">637.82</td>
+<td class="r data">558.61</td>
+<td class="r data">559.49</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">286.21</td>
+<td class="r data">190.53</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2294.65</td>
+<td class="r data">2294.65</td>
+<td class="r data">415.74</td>
+<td class="r data">285.93</td>
+<td class="r data">286.50</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">701.07</td>
+<td class="r data">546.52</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4400.50</td>
+<td class="r data">4400.50</td>
+<td class="r data">773.07</td>
+<td class="r data">700.55</td>
+<td class="r data">701.58</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">185.64</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2269.86</td>
+<td class="r data">2269.86</td>
+<td class="r data">246.46</td>
+<td class="r data">185.34</td>
+<td class="r data">185.94</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">734.93</td>
+<td class="r data">560.81</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4253.95</td>
+<td class="r data">4253.95</td>
+<td class="r data">908.98</td>
+<td class="r data">734.36</td>
+<td class="r data">735.51</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">1123.72</td>
+<td class="r data">744.38</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">11400.07</td>
+<td class="r data">11400.07</td>
+<td class="r data">1323.71</td>
+<td class="r data">1122.64</td>
+<td class="r data">1124.79</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">1483.99</td>
+<td class="r data">1141.40</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">10862.66</td>
+<td class="r data">10862.66</td>
+<td class="r data">1346.85</td>
+<td class="r data">1482.77</td>
+<td class="r data">1485.21</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">5401463</th>
+<td class="r data">5401463</td>
+<td class="r data">0</td>
+<td class="r data">688.32</td>
+<td class="r data">519.34</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4208.57</td>
+<td class="r data">4208.57</td>
+<td class="r data">767.09</td>
+<td class="r data">687.76</td>
+<td class="r data">688.88</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Quebec</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">614.43</td>
+<td class="r data">490.71</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4525.01</td>
+<td class="r data">4525.01</td>
+<td class="r data">633.22</td>
+<td class="r data">613.87</td>
+<td class="r data">615.00</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">269.37</td>
+<td class="r data">178.97</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2776.29</td>
+<td class="r data">2776.29</td>
+<td class="r data">410.08</td>
+<td class="r data">269.04</td>
+<td class="r data">269.70</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">943.03</td>
+<td class="r data">756.60</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">6418.48</td>
+<td class="r data">6418.48</td>
+<td class="r data">954.46</td>
+<td class="r data">942.18</td>
+<td class="r data">943.87</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">307.91</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">6017.09</td>
+<td class="r data">6017.09</td>
+<td class="r data">327.31</td>
+<td class="r data">307.23</td>
+<td class="r data">308.59</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">688.59</td>
+<td class="r data">512.15</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5360.06</td>
+<td class="r data">5360.06</td>
+<td class="r data">677.20</td>
+<td class="r data">687.87</td>
+<td class="r data">689.31</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">1037.45</td>
+<td class="r data">715.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">10026.44</td>
+<td class="r data">10026.44</td>
+<td class="r data">1201.20</td>
+<td class="r data">1036.25</td>
+<td class="r data">1038.65</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">1273.59</td>
+<td class="r data">1069.31</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">8375.62</td>
+<td class="r data">8375.62</td>
+<td class="r data">1182.10</td>
+<td class="r data">1272.53</td>
+<td class="r data">1274.66</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">3610513</th>
+<td class="r data">3610513</td>
+<td class="r data">0</td>
+<td class="r data">657.60</td>
+<td class="r data">519.17</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4917.51</td>
+<td class="r data">4917.51</td>
+<td class="r data">711.13</td>
+<td class="r data">656.97</td>
+<td class="r data">658.23</td>
+</tr>
+<tr>
+<th class="l t data">Prairie</th>
+<th class="l t data">Alberta</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">561.15</td>
+<td class="r data">413.30</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2878.83</td>
+<td class="r data">2878.83</td>
+<td class="r data">726.70</td>
+<td class="r data">560.35</td>
+<td class="r data">561.95</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">374.91</td>
+<td class="r data">260.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">2664.26</td>
+<td class="r data">2664.26</td>
+<td class="r data">492.96</td>
+<td class="r data">374.26</td>
+<td class="r data">375.55</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">943.76</td>
+<td class="r data">695.50</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">7231.86</td>
+<td class="r data">7231.86</td>
+<td class="r data">1120.08</td>
+<td class="r data">942.37</td>
+<td class="r data">945.15</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">179.69</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data" nowrap>-964.08</td>
+<td class="r data">1809.73</td>
+<td class="r data">2773.81</td>
+<td class="r data">248.30</td>
+<td class="r data">179.16</td>
+<td class="r data">180.22</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">783.85</td>
+<td class="r data">635.96</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5147.60</td>
+<td class="r data">5147.60</td>
+<td class="r data">854.58</td>
+<td class="r data">782.75</td>
+<td class="r data">784.94</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">1203.46</td>
+<td class="r data">869.18</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">7724.34</td>
+<td class="r data">7724.34</td>
+<td class="r data">1629.28</td>
+<td class="r data">1201.52</td>
+<td class="r data">1205.39</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">1582.31</td>
+<td class="r data">1273.61</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">7615.07</td>
+<td class="r data">7615.07</td>
+<td class="r data">1574.40</td>
+<td class="r data">1580.12</td>
+<td class="r data">1584.49</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">1574179</th>
+<td class="r data">1574179</td>
+<td class="r data">0</td>
+<td class="r data">794.78</td>
+<td class="r data">590.86</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4060.49</td>
+<td class="r data">4060.49</td>
+<td class="r data">1039.21</td>
+<td class="r data">793.68</td>
+<td class="r data">795.89</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Manitoba</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">486.02</td>
+<td class="r data">327.63</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4996.16</td>
+<td class="r data">4996.16</td>
+<td class="r data">521.24</td>
+<td class="r data">484.46</td>
+<td class="r data">487.59</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">378.60</td>
+<td class="r data">195.16</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4228.45</td>
+<td class="r data">4228.45</td>
+<td class="r data">501.28</td>
+<td class="r data">377.18</td>
+<td class="r data">380.02</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">903.25</td>
+<td class="r data">731.06</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">3933.20</td>
+<td class="r data">3933.20</td>
+<td class="r data">865.02</td>
+<td class="r data">901.15</td>
+<td class="r data">905.36</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">158.52</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">3033.42</td>
+<td class="r data">3033.42</td>
+<td class="r data">138.84</td>
+<td class="r data">157.44</td>
+<td class="r data">159.59</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">731.22</td>
+<td class="r data">566.02</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5648.21</td>
+<td class="r data">5648.21</td>
+<td class="r data">763.88</td>
+<td class="r data">729.28</td>
+<td class="r data">733.16</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">1193.66</td>
+<td class="r data">809.11</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">17772.79</td>
+<td class="r data">17772.79</td>
+<td class="r data">1374.62</td>
+<td class="r data">1189.53</td>
+<td class="r data">1197.78</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">1397.69</td>
+<td class="r data">1069.25</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">7699.33</td>
+<td class="r data">7699.33</td>
+<td class="r data">1458.86</td>
+<td class="r data">1394.21</td>
+<td class="r data">1401.17</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">489946</th>
+<td class="r data">489946</td>
+<td class="r data">0</td>
+<td class="r data">596.32</td>
+<td class="r data">445.46</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4044.54</td>
+<td class="r data">4044.54</td>
+<td class="r data">604.14</td>
+<td class="r data">594.74</td>
+<td class="r data">597.90</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Saskatchewan</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">491.13</td>
+<td class="r data">335.43</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">3509.74</td>
+<td class="r data">3509.74</td>
+<td class="r data">599.82</td>
+<td class="r data">489.50</td>
+<td class="r data">492.76</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">410.30</td>
+<td class="r data">233.74</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">3083.25</td>
+<td class="r data">3083.25</td>
+<td class="r data">526.11</td>
+<td class="r data">408.69</td>
+<td class="r data">411.91</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">907.14</td>
+<td class="r data">683.02</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5285.63</td>
+<td class="r data">5285.63</td>
+<td class="r data">1049.62</td>
+<td class="r data">904.71</td>
+<td class="r data">909.57</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">151.19</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">7534.21</td>
+<td class="r data">7534.21</td>
+<td class="r data">84.00</td>
+<td class="r data">150.00</td>
+<td class="r data">152.39</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">764.74</td>
+<td class="r data">505.70</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4968.59</td>
+<td class="r data">4968.59</td>
+<td class="r data">812.49</td>
+<td class="r data">762.20</td>
+<td class="r data">767.28</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">1337.56</td>
+<td class="r data">872.56</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">10596.04</td>
+<td class="r data">10596.04</td>
+<td class="r data">1747.93</td>
+<td class="r data">1332.75</td>
+<td class="r data">1342.36</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">1692.44</td>
+<td class="r data">1282.38</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">9486.20</td>
+<td class="r data">9486.20</td>
+<td class="r data">1804.38</td>
+<td class="r data">1687.65</td>
+<td class="r data">1697.23</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">435758</th>
+<td class="r data">435758</td>
+<td class="r data">0</td>
+<td class="r data">681.75</td>
+<td class="r data">518.53</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4257.90</td>
+<td class="r data">4257.90</td>
+<td class="r data">803.91</td>
+<td class="r data">679.63</td>
+<td class="r data">683.87</td>
+</tr>
+<tr>
+<th class="l t data">Territorial capitals</th>
+<th class="l t data">Territorial capitals</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">618.65</td>
+<td class="r data">482.86</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">9227.67</td>
+<td class="r data">9227.67</td>
+<td class="r data">527.05</td>
+<td class="r data">608.93</td>
+<td class="r data">628.37</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">501.60</td>
+<td class="r data">271.78</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4399.65</td>
+<td class="r data">4399.65</td>
+<td class="r data">651.16</td>
+<td class="r data">492.87</td>
+<td class="r data">510.33</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">1212.83</td>
+<td class="r data">922.89</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">6067.74</td>
+<td class="r data">6067.74</td>
+<td class="r data">1330.42</td>
+<td class="r data">1198.32</td>
+<td class="r data">1227.34</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">255.49</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">6901.12</td>
+<td class="r data">6901.12</td>
+<td class="r data">254.40</td>
+<td class="r data">246.79</td>
+<td class="r data">264.18</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">1078.21</td>
+<td class="r data">788.08</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">9225.84</td>
+<td class="r data">9225.84</td>
+<td class="r data">1147.38</td>
+<td class="r data">1063.57</td>
+<td class="r data">1092.85</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">1597.11</td>
+<td class="r data">899.43</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">11392.01</td>
+<td class="r data">11392.01</td>
+<td class="r data">2032.06</td>
+<td class="r data">1571.81</td>
+<td class="r data">1622.40</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">2278.52</td>
+<td class="r data">1721.97</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">21199.40</td>
+<td class="r data">21199.40</td>
+<td class="r data">1923.68</td>
+<td class="r data">2249.64</td>
+<td class="r data">2307.41</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">21431</th>
+<td class="r data">21431</td>
+<td class="r data">0</td>
+<td class="r data">1072.46</td>
+<td class="r data">727.41</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5642.18</td>
+<td class="r data">5642.18</td>
+<td class="r data">1027.05</td>
+<td class="r data">1058.42</td>
+<td class="r data">1086.50</td>
+</tr>
+<tr>
+<th class="l t data">West</th>
+<th class="l t data">British Columbia</th>
+<th class="l t data">Bakery products</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">504.48</td>
+<td class="r data">369.43</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">3178.50</td>
+<td class="r data">3178.50</td>
+<td class="r data">594.36</td>
+<td class="r data">503.81</td>
+<td class="r data">505.16</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Cereal grains and cereal products</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">412.50</td>
+<td class="r data">255.78</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4163.64</td>
+<td class="r data">4163.64</td>
+<td class="r data">590.72</td>
+<td class="r data">411.77</td>
+<td class="r data">413.24</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Dairy products and eggs</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">914.39</td>
+<td class="r data">732.16</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4054.60</td>
+<td class="r data">4054.60</td>
+<td class="r data">954.62</td>
+<td class="r data">913.31</td>
+<td class="r data">915.47</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fish and seafood</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">223.82</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">4503.37</td>
+<td class="r data">4503.37</td>
+<td class="r data">327.17</td>
+<td class="r data">223.25</td>
+<td class="r data">224.39</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Fruit, fruit preparations and nuts</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">804.75</td>
+<td class="r data">564.98</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">6725.94</td>
+<td class="r data">6725.94</td>
+<td class="r data">816.66</td>
+<td class="r data">803.61</td>
+<td class="r data">805.89</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Meat</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">1065.67</td>
+<td class="r data">664.04</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">9192.90</td>
+<td class="r data">9192.90</td>
+<td class="r data">1281.54</td>
+<td class="r data">1063.99</td>
+<td class="r data">1067.35</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Non-alcoholic beverages and other food products</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">1519.44</td>
+<td class="r data">1182.14</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">8578.29</td>
+<td class="r data">8578.29</td>
+<td class="r data">1555.42</td>
+<td class="r data">1517.65</td>
+<td class="r data">1521.24</td>
+</tr>
+<tr>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">&nbsp;</th>
+<th class="l t data">Vegetables and vegetable preparations</th>
+<th class="r t data">1922958</th>
+<td class="r data">1922958</td>
+<td class="r data">0</td>
+<td class="r data">832.12</td>
+<td class="r data">667.68</td>
+<td class="r data">0.00</td>
+<td class="r data">0.00</td>
+<td class="r data">5718.18</td>
+<td class="r data">5718.18</td>
+<td class="r data">874.74</td>
+<td class="r data">831.06</td>
+<td class="r data">833.18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
